@@ -5,7 +5,7 @@
 *
 * Description 'this function prints a sample message'
 *
-* Return: Alaways 0
+* Return: Always 0
 */
 
 int main(void)
