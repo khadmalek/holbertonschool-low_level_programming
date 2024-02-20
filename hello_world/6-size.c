@@ -3,17 +3,17 @@
 /**
 * main - entry
 *
-* Description 'prints the size of various types on the computer it is compiled and run on'
+* Description'prints the size various types compiled and run on'
 *
 * Return: Always 0
 */
 
 int main(void)
 {
-        sizeof("char");
-	sizeof("int");
-	sizeof("long int");
-	sizeof("long long int");
-	sizeof("float");
-	Return 0
+	printf("Size of int:%lu byte(s)\n", sizeof(int));
+	printf("Size of short:%lu byte(s)\n", sizeof(short));
+	printf("Size of long:%lu byte(s)\n", sizeof(long));
+	printf("Size of long long:%lu byte(s)\n", sizeof(long long));
+	printf("Size of float:%lu byte(s)\n", sizeof(float));
+	Return(0);
 }
