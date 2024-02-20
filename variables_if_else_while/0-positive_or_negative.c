@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
-*main - entry point
+* main - this program speak of if and else
 *
-*description: this program speak of if and else
-*
-*Return/ Always:0
+* Return: Always:0
 */
 
 int main(void)
