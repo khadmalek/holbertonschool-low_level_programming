@@ -6,12 +6,12 @@
 *Return: 0
 */
 
-int main (void)
+int main(void)
 {
 	char character = 'a';
 
-	for(character = 'a'; character <= 'z'; character++) 
-	{	
+	for (character = 'a'; character <= 'z'; character++)
+	{
 		putchar(character);
 	}
 	putchar('\n');
