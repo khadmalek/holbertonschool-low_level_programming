@@ -5,7 +5,7 @@
 /**
 *main - entry point
 *
-*description: this program speak of if/else
+*description: this program speak of if and else
 *
 *Return/ Always:0
 */
