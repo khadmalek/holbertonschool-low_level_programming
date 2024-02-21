@@ -8,15 +8,14 @@
 
 int main(void)
 {
-	int i;
-	char lowercase = 'a';
-	char uppercase = 'A';
+	char lowercase;
+	char uppercase;
 
-	for (i = 0; i < 26; i++)
+		for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
 		putchar(lowercase);
 	}
-	for (i = 0; i < 26; i++)
+	for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
 	{
 		putchar(uppercase);
 	}
