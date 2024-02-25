@@ -1,33 +1,39 @@
 #include "main.h"
 
 /**
- * times_table - function that prints the time table
+ * times_table - Prints the multiplication table from 0 to 9.
  *
- * Description: using the function print the time tables starting with 0.
+ * No parameters.
+ *
+ * Return: No return value.
  */
 
 void times_table(void)
-
 {
-	int i;
-	int j;
+	int row, column;
 
-	for (i = 0; i <= 9; i++)
-
+	for (row = 0; row <= 9; row++)
 	{
-		printf("0, ");
-
-		for (j = 1; j <= 9; j++)
+		for (column = 0; column <= 9; column++)
 		{
-			if (j == 9)
+			int result = row * column;
+
+			if (result > 9)
 			{
-				printf("%2d\n", i * j);
+				_putchar(result / 10 + '0');
 			}
-			else
+			else if (result <= 9 && column != 0)
 			{
-				printf("%2d, ", i * j);
+				_putchar(' ');
+			}
+			_putchar(result % 10 + '0');
+			if (column != 9)
+			{
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
+		_putchar('\n');
 	}
 }
 
