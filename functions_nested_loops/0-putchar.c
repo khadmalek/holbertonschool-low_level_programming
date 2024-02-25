@@ -3,7 +3,7 @@
 /**
 *main - Entry point
 *
-*Descritpion: Write a program that prints _putchar
+*Description: Write a program that prints _putchar
 *
 *Return: 0
 */
