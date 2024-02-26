@@ -1,12 +1,11 @@
 #include "main.h"
 
 /*
-* print_line - Prints a straight line made up of underscores
-* @n: The number of underscores in the line
+*print_line - Prints a straight line made up of underscores
+*@n: The number of underscores in the line
 *
-* Description:
-*     This function prints a straight line made up of underscores (@_) 'n' times.
-*     If @n is less than or equal to 0, it prints a newline character ('\n').
+*Description: This function prints a straight line made up of underscores
+*
 */
 
 void print_line(int n)
