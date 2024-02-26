@@ -13,9 +13,9 @@ void print_numbers(void)
 	{
 		while (c <= '9')
 		{
-		putchar(c);
-		c++;
+			_putchar(c);
+			c++;
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
