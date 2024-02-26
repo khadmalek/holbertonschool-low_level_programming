@@ -1,7 +1,10 @@
 #include "main.h"
 
-/*
- * more_numbers - Prints numbers 0 to 14 ten times
+/**
+ * more_numbers - Prints numbers 0 to 14 ten times.
+ *
+ * Description: This function prints numbers from 0 to 14 in 10 rows,
+ *              each row containing the numbers from 0 to 14.
  */
 
 void more_numbers(void)
