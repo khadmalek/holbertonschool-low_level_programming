@@ -1,11 +1,12 @@
 #include "main.h"
 
 /*
-* _putchar - Writes a character to the standard output
-* @c: The character to be written
+* print_line - Prints a straight line made up of underscores
+* @n: The number of underscores in the line
 *
 * Description:
-*     Writes the character @c to the standard output.
+*     This function prints a straight line made up of underscores (@_) 'n' times.
+*     If @n is less than or equal to 0, it prints a newline character ('\n').
 */
 
 void print_line(int n)
