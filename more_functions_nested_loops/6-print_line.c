@@ -4,7 +4,8 @@
 * _putchar - Writes a character to the standard output
 * @c: The character to be written
 *
-* Description: This function writes the character @c to the standard output.
+* Description:
+*     Writes the character @c to the standard output.
 */
 
 void print_line(int n)
