@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_rev - Prints a string in reverse followed by a new line
  *
  * Description: function takes string @s as input and prints it in reverse
