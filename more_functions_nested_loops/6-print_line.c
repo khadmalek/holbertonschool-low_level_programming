@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
 *print_line - Prints a straight line made up of underscores
 *@n: The number of underscores in the line
 *
