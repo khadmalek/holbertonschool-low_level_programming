@@ -1,6 +1,6 @@
 #include "main.h"
 
-/*
+/**
  * print_square - Print a square of '#' characters
  * @size: Size of the square
  *
