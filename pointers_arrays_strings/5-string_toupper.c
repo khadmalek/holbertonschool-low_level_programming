@@ -10,21 +10,16 @@
 
 char *string_toupper(char *str)
 {
-	char *ptr = str;
+	int i = 0;
 
-	if (str == NULL)
+	while (str[i] != '\0')
 	{
-		return (NULL);
-	}
-
-	while (*ptr != '\0')
-	{
-		if (islower(*ptr))
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			*ptr = toupper(*ptr);
+			str[i] = str[i] - 32;
 		}
-		ptr++;
+		i++;
 	}
-
 	return (str);
 }
+
