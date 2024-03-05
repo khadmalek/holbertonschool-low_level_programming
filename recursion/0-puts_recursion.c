@@ -2,9 +2,7 @@
 
 /**
 *_puts_recursion - function that prints a string,
-*
 *@s: parameter of function.
-*
 *Return: always 0.
 */
 
