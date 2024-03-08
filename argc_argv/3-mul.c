@@ -8,7 +8,7 @@
  * Return: 0
  */
 
-int main(int argc,char *argv[])
+int main(int argc, char *argv[])
 {
 	int num1, num2, res;
 
@@ -31,5 +31,5 @@ int main(int argc,char *argv[])
 
 	printf("%d\n", res);
 	return (0);
-	
+
 }
