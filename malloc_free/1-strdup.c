@@ -3,37 +3,6 @@
 #include <stdlib.h>
 
 /**
- * _strncpy - Copy a source string to a destination string
- * @dest: The destination string
- * @src: The source string
- * @n: The maximum number of characters to copy from src
- *
- * Description:
- * This function copies at most n characters from the source string src to the
- * destination string dest. If the length of src is less than n, the remaining
- * characters in dest will be filled with '\0'. If the length of src is greater
- * than or equal to n, the dest string will not be null-terminated.
- *
- * Return:
- * This function returns a pointer to the destination string.
- */
-
-char *_strncpy(char *dest, char *src, int n)
-{
-	int a;
-
-	for (a = 0; a < n && src[a] != 0; a++)
-	{
-		dest[a]  = src[a];
-	}
-	for (; a < n; a++)
-	{
-		dest[a] = 0;
-	}
-	return (dest);
-}
-
-/**
 * _strlen - Returns thr length of a string.
 *
 * @s: pointer to the string.
@@ -70,6 +39,7 @@ int _strlen(char *s)
 char *_strdup(char *str)
 {
 	char *dup_str;
+	unsigned int i;
 	size_t length;
 
 	length = _strlen(str);
@@ -82,6 +52,11 @@ char *_strdup(char *str)
 	if (dup_str == NULL)
 		return (NULL);
 
-	strcpy(dup_str, str);
+	for (i = 0; i < length; i++)
+	{
+		dup_str[i] = str[i];
+	}
+
+	dup_str[length] = '\0';
 		return (dup_str);
 }
