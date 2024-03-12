@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdlib.h>
 
 /**
  * _strncpy - Copy a source string to a destination string
@@ -71,10 +72,10 @@ char *_strdup(char *str)
 	char *dup_str;
 	size_t length;
 
+	length = _strlen(str);
+
 	if (str == NULL)
 		return (NULL);
-
-	length = strlen(str);
 
 	dup_str = (char *)malloc((length + 1) * sizeof(char));
 
