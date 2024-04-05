@@ -11,7 +11,8 @@ size_t print_list(const list_t *h)
 	*/
 	size_t num_nodes = 0;
 
-	/*add
+	/*
+    * add
 	* Iterate through the list
 	*/
 	while (h != NULL)
