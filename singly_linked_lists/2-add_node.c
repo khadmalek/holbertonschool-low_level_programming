@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * _strlen - The lentgh of string
- * @string: pointer type char
- * Return: Always 0
+* _strlen - The lentgh of string
+* @string: pointer type char
+* Return: Always 0
 */
 
 int _strlen(const char *string)
@@ -16,17 +16,12 @@ int _strlen(const char *string)
 	return (length);
 }
 
-
-
-
-
-
 /**
- * *add_node - Adds a new node to the beginning of a linked list
- * @head: Pointer to a pointer to the head of the list
- * @str: The string to add to the beginning of the list
- * Return: The address of the new node, or NULL if it failed
- */
+* *add_node - Adds a new node to the beginning of a linked list
+* @head: Pointer to a pointer to the head of the list
+* @str: The string to add to the beginning of the list
+* Return: The address of the new node, or NULL if it failed
+*/
 
 list_t *add_node(list_t **head, const char *str)
 {
